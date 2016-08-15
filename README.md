@@ -3,6 +3,10 @@
 Wordpress Recipes Theme.
 **Demo: [http://myrecipes.stegaru-dev.com/](http://myrecipes.stegaru-dev.com)**
 
+**myRecipes is a fully responsive, and beautifully designed WordPress theme for recipes related websites. This theme makes it very easy to share cooking knowledge and it is perfect for professional Chefs and Cooking Experts.**
+
+This theme is fully hand coded and its HTML is written keeping in mind your sites good ranking on search engines. It features Method and Ingredients approaches which comes very handy for your visitors to easily follow your recipes.
+
 - [Installation](#installation)
 - Setup / Customize
   - [Homepage](#homepage)
