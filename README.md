@@ -15,6 +15,15 @@ Wordpress Recipes Theme
   - [Contact page](#contact-page)
   - [Sidebars & Widgets](#sidebar--widgets)
 - [Add recipes](#add-recipes)
+  - [Is Featured?](#is-featured) 
+  - [Appear on homepage](#appear-on-homepage)
+  - [Ingredients](#ingredients)
+  - [Method](#method)
+  - [Cooking time](#cooking-time)
+  - [Difficulty](#difficulty-level)
+  - [Serves](#serves)
+  - [Gallery](#gallery)
+  - [Recipe description](#recipe-description)
 
 
 # Installation
@@ -153,7 +162,7 @@ You can change:
 
 - The page layout (default is "With sidebar")
 - Show article author (checked by default)
-- Show dificulty (checked by default)
+- Show difficulty (checked by default)
 - Show cooking time (checked by default)
 - Show publish date (checked by default)
 
@@ -229,7 +238,7 @@ If completed, that value will appear in the recipe page, right bellow the title.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Dificulty level
+### Difficulty level
 Give your readers and insight of the recipe complexity. If completed, that value will appear in the recipe page, right bellow the title.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
