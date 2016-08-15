@@ -13,7 +13,7 @@ Wordpress Recipes Theme
     - [Single Recipe page](#single-recipe-page)
   - [Blog page](#blog-page)
   - [Contact page](#contact-page)
-  - [Sidebars & Widgets](#sidebar)
+  - [Sidebars & Widgets](#sidebar--widgets)
 - [Add recipes](#add-recipes)
 
 
