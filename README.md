@@ -1,6 +1,7 @@
 # myRecipes - Simple, Fast, Awesome 
 
-Wordpress Recipes Theme
+Wordpress Recipes Theme.
+**Demo: [http://myrecipes.stegaru-dev.com/](http://myrecipes.stegaru-dev.com)**
 
 - [Installation](#installation)
 - Setup / Customize
