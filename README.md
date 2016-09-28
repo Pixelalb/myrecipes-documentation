@@ -1,4 +1,4 @@
-# myRecipes - Simple, Fast, Awesome 
+# <a name="myrecipes---simple-fast-awesome"></a>myRecipes - Simple, Fast, Awesome 
 
 Wordpress Recipes Theme.
 **Demo: [http://myrecipes.stegaru-dev.com/](http://myrecipes.stegaru-dev.com)**
@@ -12,7 +12,7 @@ This theme is fully hand coded and its HTML is written keeping in mind your site
   - [Homepage](#homepage)
      - [Featured Recipes](#featured-recipes)
      - [Recent Recipes](#recent-recipes)
-     - [Blog Posts](#recent-blog-posts)
+     - [Recent Blog Posts](#recent-blog-posts)
      - [Footer Social Buttons](#footer-social-buttons)
   - [My Recipes page](#my-recipes-page)
     - [Single Recipe page](#single-recipe-page)
@@ -31,7 +31,7 @@ This theme is fully hand coded and its HTML is written keeping in mind your site
   - [Recipe description](#recipe-description)
 
 
-# Installation
+# Installation <a name="installation"></a>
 
 Before you install theme, make sure your installed Wordpress version is 4 or higher. You also need to have PHP 5 or higher versions (recommended is php 5.3+) and MySQL 5.0 in order for myRecipes to function correctly. There are two ways to install myRecipes. 
 
@@ -53,7 +53,7 @@ myRecipes can also be installed by using the Add New Themes option found in *App
 After being uploaded to your theme folder, login to WP admin panel, go to Appearence -> Themes and activate myRecipes theme.
 
 This theme requires the **"Advanced Custom Fields"** and **"Contact Form 7"** plugins. It also recommends **"Add This"** plugin (for social media buttons).
-Install these plugins manually or click the "Begin installing plugins" link and let the Wordpress install them automatically.
+Install these plugins by clicking the "Begin installing plugins" link and let the Wordpress install them automatically. You can also install the plugins manually (plugins attached to the theme download file). Just unzip and move each plugin to the /plugins/ folder of your wordpress platform, the go to the admin panel, plugins section, and activate previously added plugins.
 
 Once activated, the theme automatically creates:
 
@@ -67,7 +67,7 @@ Now you are ready to start your recipes website using myRecipes!
 
 # Setup / Customize
 
-## Homepage
+## <a name="homepage"></a>Homepage
 After you activate the theme, you'll see a listing of your posts on homepage. 
 
 Now, you may want a nicer look for your homepage ([see demo here](http://myrecipes.stegaru-dev.com) or check screenshot bellow). 
@@ -87,7 +87,7 @@ In order to activate that layout, go to the admin panel, Settings -> Reading -> 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
 
-### Featured recipes
+### <a name="featured-recipes"></a>Featured recipes
 This is the top hero section of the homepage. It can feature up to 3 posts at your choice.
 
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/homepage-featured-section.jpg) 
@@ -105,7 +105,8 @@ You can change:
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Recent recipes
+### <a name="recent-recipes"></a>Recent recipes
+This section appears on homepage. It shows the latest added recipes. You can allow as many recipes as needed. By default there will be listed 4 recipe items.
 ![Homepage recent recipes](http://myrecipes.stegaru-dev.com/theme_assets/homepage-recent-recipes.jpg)
 
 Edit this section by going to admin panel, Dashboard -> Customize your site -> Homepage settings -> Recent recipes section.
@@ -121,7 +122,9 @@ You can change:
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Recent blog posts
+### <a name="recent-blog-posts"></a>Recent blog posts
+When you add a new article in the blog section, a shortcut to the blog post will appear on the homepage, under the **Blog** section.
+
 Edit this section by going to admin panel, Dashboard -> Customize your site -> Homepage settings -> Recent blog posts.
 
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/edit-homepage-blog.jpg)
@@ -132,7 +135,7 @@ You can change:
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Footer social buttons
+### <a name="footer-social-buttons"></a>Footer social buttons
 Edit this section by going to admin panel, Dashboard -> Customize your site -> Social buttons.
 
 Add your social pages links. The social buttons will appear in footer.
@@ -142,7 +145,7 @@ Add your social pages links. The social buttons will appear in footer.
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
 
-## My recipes page
+## <a name="my-recipes-page"></a>My recipes page
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/page-myrecipes.jpg)
 
 Go to Dashboard -> Customize my site -> Recipes -> All recipes page
@@ -158,7 +161,7 @@ You can change:
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
 
-## Single recipe page
+## <a name="single-recipe-page"></a>Single recipe page
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/page-recipe.jpg)
 
 Go to Dashboard -> Customize my site -> Recipes -> Single recipe page
@@ -177,7 +180,7 @@ You can change:
 
 
 
-## Blog page
+## <a name="blog-page"></a>Blog page
 Displays a list of your blog entries.
 
 You can change the page layout be **"Classic"**, **"Grid"**, **"Rows"**
@@ -191,7 +194,7 @@ You can also change the page hero's background color and background image.
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
 
-## Contact page
+## <a name="contact-page"></a>Contact page
 Go to "Contact" section, copy the shortcode of the existing form.
 
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/contact-copy-shortcode.jpg)
@@ -204,7 +207,7 @@ You can add the contact page to the main menu by editing Menus under Appearance 
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-# Add recipes
+# <a name="add-recipes"></a>Add recipes
 
 Go to Posts -> Add new.
 
@@ -217,53 +220,53 @@ Select/Create the category you want the recipe to be displayed in and hit the Pu
 
 Let's see what each post field means.
 
-### Is Featured?
+### <a name="is-featured"></a>Is Featured?
 Check that box and your recipe will appear in the "Featured recipes" section in homepage. 
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Appear on homepage?
+### <a name="appear-on-homepage"></a>Appear on homepage?
 If you opt for this, the recipe will be displayed on homepage, under the "Recent Recipes" section.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Ingredients
+### <a name="ingredients"></a>Ingredients
 Start adding the recipe ingredients, one by one, by clicking the "Add ingredient" button.
 This will genereate the "Ingredients" widget on your recipe page. Feel free to reorder the ingredients list by dragging the rows up/down with your cursor.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Method
+### <a name="method"></a>Method
 Explain your recipe, step by step, by adding action items in the method list. You can reorder the steps list by dragging the items up/down with your cursor.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Cooking time
+### <a name="cooking-time"></a>Cooking time
 If completed, that value will appear in the recipe page, right bellow the title.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Difficulty level
+### <a name="difficulty-level"></a>Difficulty level
 Give your readers and insight of the recipe complexity. If completed, that value will appear in the recipe page, right bellow the title.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Serves
+### <a name="serves"></a>Serves
 How many people serves this recipe, based on ingrediens quantities, etc. If completed, that value will appear in the recipe page, right bellow the title.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Gallery
+### <a name="gallery"></a>Gallery
 Select the recipe pictures from Media Library, or upload. Feel free to add a caption to each picture. It'll be displayed right under the picture. Once added to the gallery, you can reorder the photos appearance order by dragging each one with your cursor.
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-### Recipe description
+### <a name="recipe-description"></a>Recipe description
 Write the recipe intro/description. This is the section you start the recipe with. It appears above the Ingredients and Method widgets (if completed).
 
 **[navigate to top ^](#myrecipes---simple-fast-awesome)**
 
-## Sidebar & Widgets
+## <a name="sidebar--widgets"></a>Sidebar & Widgets
 Besides the default sidebar, myRecipes theme has three more dynamic sidebars:
 
 - Blog sidebar (appears on blog pages)
