@@ -55,11 +55,11 @@ After being uploaded to your theme folder, login to WP admin panel, go to Appear
 This theme requires the **"Advanced Custom Fields"** and **"Contact Form 7"** plugins. It also recommends **"Add This"** plugin (for social media buttons).
 Install these plugins by clicking the "Begin installing plugins" link and let the Wordpress install them automatically. You can also install the plugins manually (plugins attached to the theme download file). Just unzip and move each plugin to the /plugins/ folder of your wordpress platform, the go to the admin panel, plugins section, and activate previously added plugins.
 
-Once activated, the theme automatically creates:
+Once activated the theme, please create these pages as explained bellow:
 
 - myRecipes Homepage layout (see [Homepage setup](#homepage))
-- My recipes page (this is a collection page of all your recipes)
-- Blog page (displays the posts you add under "Blog posts")
+- My recipes page (this is a collection page of all your recipes. See [My Recipes page](#my-recipes-page))
+- Blog page (displays the posts you add under "Blog posts". See [Blog page](#blog-page))
 
 Now you are ready to start your recipes website using myRecipes!
 
@@ -80,7 +80,18 @@ The "myRecipes Homepage" layout consists of:
  - "[Recent Recipes](#recent-recipes)" section
  - "[Blog](#recent-blog-posts)" section
 
-In order to activate that layout, go to the admin panel, Settings -> Reading -> Front page displays. Select "myRecipes Homepage". Save the changes.
+In order to activate this layout you need to create the homepage in Pages section.
+
+1. go to Pages
+2. click "add new"
+3. name it myRecipes Homepage (or as you preffer)
+4. under the Page Attributes section (at the right), select the Homepage template.
+5. publish the page
+
+![Homepage page](http://myrecipes.stegaru-dev.com/theme_assets/create_homepage_template.jpg)
+
+Now you need to make this page as your blog front page. 
+To do this, go to the admin panel, Settings -> Reading -> Front page displays. Select "myRecipes Homepage". Save the changes.
 
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/activate-homepage-layout.jpg)
 
@@ -147,8 +158,9 @@ Add your social pages links. The social buttons will appear in footer.
 
 ## <a name="my-recipes-page"></a>My recipes page
 ![Homepage layout](http://myrecipes.stegaru-dev.com/theme_assets/page-myrecipes.jpg)
+In order to acheive this layout for your recipes page, go to Pages, add new page, give it a name, use the "All recipes page" template, publish.
 
-Go to Dashboard -> Customize my site -> Recipes -> All recipes page
+This page is editable via Customizer. To make edits, go to Dashboard -> Customize my site -> Recipes -> All recipes page
 
 You can change:
 
@@ -181,9 +193,10 @@ You can change:
 
 
 ## <a name="blog-page"></a>Blog page
-Displays a list of your blog entries.
+You may need a page that displays a list of your blog entries. 
+To create the blog page, go to Pages, create a new page called Blog (make sure its permalink is [yoursite-address]/blog/ )
 
-You can change the page layout be **"Classic"**, **"Grid"**, **"Rows"**
+You can change the Blog's page layout be **"Classic"**, **"Grid"**, **"Rows"**
 
 To do so, go to Dashboard -> Customize my site -> Blog settings
 
